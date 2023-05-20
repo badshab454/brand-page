@@ -1,7 +1,9 @@
+import "./App.css";
+
 const App = () => {
   return (
     <>
-      <nav>
+      <nav className="nav-bar">
         <div className="logo">
           <img src="/img/brand_logo.png" alt="logo" />
         </div>
