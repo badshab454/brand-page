@@ -3,15 +3,27 @@ const Navigation = () => {
     <>
       <nav className="nav-bar">
         <div className="logo">
-          <img src="/img/brand_logo.png" alt="logo" />
+          <a href="#">
+            <img src="/img/brand_logo.png" alt="logo" />{" "}
+          </a>
         </div>
         <ul>
-          <li href="#">MENU</li>
-          <li href="#">LOCATION</li>
-          <li href="#">ABOUT</li>
-          <li href="#">CONTACT</li>
+          <li>
+            <a href="#">MENU</a>
+          </li>
+          <li>
+            <a href="#">LOCATION</a>
+          </li>
+          <li>
+            <a href="#">ABOUT</a>
+          </li>
+          <li>
+            <a href="#">CONTACT</a>
+          </li>
         </ul>
-        <button>Login</button>
+        <a href="#">
+          <button>Login</button>
+        </a>
       </nav>
     </>
   );

@@ -10,13 +10,22 @@ const HeroSection = () => {
           SHOES.
         </p>
         <div className="hero-btn">
-          <button className="shop">Shop Now</button>
-          <button className="category">Category</button>
+          <button className="shop">
+            <a href="#">Shop Now</a>
+          </button>
+
+          <button className="category">
+            <a href="#">Category</a>
+          </button>
         </div>
         <p className="shop-paragraph">Also Available On</p>
         <div className="shopping-section">
-          <img src="/img/flipkart.png" alt="flipkart" />
-          <img src="/img/amazon.png" alt="amazon" />
+          <a href="#">
+            <img src="/img/flipkart.png" alt="flipkart" />
+          </a>
+          <a href="#">
+            <img src="/img/amazon.png" alt="amazon" />
+          </a>
         </div>
       </div>
       <div className="hero-img">

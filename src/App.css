@@ -13,6 +13,11 @@ body {
   font-family: "Poppins", sans-serif;
 }
 
+a {
+  text-decoration: none;
+  color: #000;
+}
+
 nav {
   display: flex;
   justify-content: space-between;
@@ -34,6 +39,14 @@ nav button {
   height: 32px;
   color: #fff;
   font-weight: 500;
+}
+
+nav button:hover {
+  background: var(--gray);
+}
+
+nav ul li a {
+  color: #000;
 }
 
 .hero-section {
@@ -66,13 +79,16 @@ nav button {
   height: 30px;
   padding: 4px 10px;
   background: var(--red);
-  color: #fff;
 }
 
 .hero-btn .category {
   width: 120px;
   height: 30px;
   padding: 4px 10px;
+}
+
+.hero-btn .shop a {
+  color: #fff;
 }
 
 .shop-paragraph {
