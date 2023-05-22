@@ -9,6 +9,7 @@ const App = () => {
       <Navigation />
       <Navigation />
       <HeroSection />
+      <h1>Hello World</h1>
     </>
   );
 };
