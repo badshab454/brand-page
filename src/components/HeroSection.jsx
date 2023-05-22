@@ -1,18 +1,19 @@
 const HeroSection = () => {
   return (
     <div className="hero-section">
-      <div className="hero-conetnt">
+      <div className="hero-content">
         <h1>YOUR FEET DESERVE THE BEST</h1>
         <p>
-          YOUR FEET DESERVE THE BEST AND WE’RE HERE TO HELP YOU WITH OUR
-          SHOES.YOUR FEET DESERVE THE BEST AND WE’RE HERE TO HELP YOU WITH OUR
+          YOUR FEET DESERVE THE BEST AND WE’RE HERE TO <br />
+          HELP YOU WITH OUR SHOES.YOUR FEET DESERVE <br />
+          THE BEST AND WE’RE HERE TO HELP YOU WITH OUR <br />
           SHOES.
         </p>
         <div className="hero-btn">
-          <button>Shop Now</button>
-          <button>Category</button>
+          <button className="shop">Shop Now</button>
+          <button className="category">Category</button>
         </div>
-        <p>Also Available On</p>
+        <p className="shop-paragraph">Also Available On</p>
         <div className="shopping-section">
           <img src="/img/flipkart.png" alt="flipkart" />
           <img src="/img/amazon.png" alt="amazon" />

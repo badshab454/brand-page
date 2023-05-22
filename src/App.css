@@ -42,8 +42,47 @@ nav button {
   margin: 0 auto;
 }
 
-.hero-section h1 {
+.hero-content h1 {
   font-weight: 800;
   font-size: 100px;
+  line-height: 102px;
   margin: 50px 0 30px 0;
+}
+
+.hero-content p {
+  font-size: 12px;
+  font-weight: 600;
+  color: var(--gray);
+}
+
+.hero-btn {
+  display: flex;
+  gap: 30px;
+  margin: 20px 0;
+}
+
+.hero-btn .shop {
+  width: 120px;
+  height: 30px;
+  padding: 4px 10px;
+  background: var(--red);
+  color: #fff;
+}
+
+.hero-btn .category {
+  width: 120px;
+  height: 30px;
+  padding: 4px 10px;
+}
+
+.shop-paragraph {
+  color: var(--gray);
+  font-size: 10px;
+  font-weight: 300;
+}
+
+.shopping-section {
+  display: flex;
+  gap: 10px;
+  margin-top: 5px;
 }
